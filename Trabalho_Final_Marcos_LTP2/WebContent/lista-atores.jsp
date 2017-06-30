@@ -9,7 +9,7 @@
 <title>Ator(es)</title>
 </head>
 <body>
-<TABLE style='width:100%' bgcolor='#262626'><TR><TH style='width:62%' bgcolor='#cccccc'><FONT color='#333333'>Kevin Yuji Kobori</FONT></TH>
+<TABLE style='width:100%' bgcolor='#262626'><TR><TH style='width:62%' bgcolor='#cccccc'><FONT color='#333333'></FONT></TH>
 <TH style='width:38%' bgcolor='#333333'><font size='+1' color='#FFFFFF'>UniCEUB</FONT></TH></TR></TABLE>
 
 <TABLE style='width:100%' bgcolor='#333333'><TR></TR></TABLE>
