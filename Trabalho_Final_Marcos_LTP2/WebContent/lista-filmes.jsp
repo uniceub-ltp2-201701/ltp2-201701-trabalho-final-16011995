@@ -9,7 +9,7 @@
 <title>Filme(s)</title>
 </head>
 <body>
-<TABLE style='width:100%' bgcolor='#262626'><TR><TH style='width:62%' bgcolor='#cccccc'><FONT color='#333333'>Kevin Yuji Kobori</FONT></TH>
+<TABLE style='width:100%' bgcolor='#262626'><TR><TH style='width:62%' bgcolor='#cccccc'><FONT color='#333333'></FONT></TH>
 <TH style='width:38%' bgcolor='#333333'><font size='+1' color='#FFFFFF'>UniCEUB</FONT></TH></TR></TABLE>
 
 <TABLE style='width:100%' bgcolor='#333333'><TR></TR></TABLE>
@@ -33,13 +33,13 @@ ArrayList<Filme> filmes = (ArrayList<Filme>) request.getAttribute("filme");
 		if(filmes.get(i).getIdFilme() == 0) {
         out.println("</TABLE>" +
 					"<TABLE style='width:100%' bgcolor='#CCCCCC'><TR><TH><FONT size='7' color='#FFFFFF'>" +
-					"… Nesses·rio a InserÁ„o de Dados para a Pesquisa Ser Efetuada</FONT></TH>");
+					"√â Nesses√°rio a Inser√ß√£o de Dados para a Pesquisa Ser Efetuada</FONT></TH>");
   		} else if(filmes.get(i).getTituloIngles() == null) {
   	    out.println("<TR>" +
   					"<TH bgcolor='#CCCCCC'><FONT size='4' color='#333333'>" + filmes.get(i).getIdFilme() + "</FONT></TH>" +
   					"<TH bgcolor='#333333'><A HREF='detalha-filme?idfilme=" + filmes.get(i).getIdFilme() + "'>" +
 					"<FONT size='4' color='#FFFFFF'> " + filmes.get(i).getTitulo() + " </FONT></A></TH>" +
-					"<TH bgcolor='#333333'><FONT size='4' color='#ffcc00'>IndisponÌvel</FONT></TH>");
+					"<TH bgcolor='#333333'><FONT size='4' color='#ffcc00'>Indispon√≠vel</FONT></TH>");
 		}  else {
         out.println("<TR>" +
 					"<TH bgcolor='#CCCCCC'><FONT size='4' color='#333333'>" + filmes.get(i).getIdFilme() + "</FONT></TH>" +
